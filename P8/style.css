@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+}
+
+.nav {
+  background-color: rgb(252, 255, 252);
+  color: rgb(84, 82, 82);
+  border-right: 1px solid grey;
+}
+aside {
+  position: sticky;
+  top: 0;
+}
+.title {
+  align-content: center;
+  border-bottom: 2px solid rgb(84, 82, 82);
+  padding: 15px;
+}
+.heading .intro,
+.heading .what,
+.heading .java,
+.heading .hello,
+.heading .var {
+  border-bottom: 2px solid rgb(84, 82, 82);
+  transition: 0.5s ease-in;
+}
+.heading .intro:hover,
+.heading .what:hover,
+.heading .java:hover,
+.heading .hello:hover,
+.heading .var:hover {
+  transition: 0.3s ease-out;
+  background-color: rgb(194, 189, 189);
+  cursor: pointer;
+}
+.intro,
+.what,
+.java,
+.hello,
+.var {
+  padding: 10px;
+}
+.intro {
+  padding: 10px;
+}
+.intro h3 {
+  padding-top: 15px;
+  border-bottom: 2px solid rgb(84, 82, 82);
+}
+
+.intro p,
+.intro ul {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.intro li {
+  padding: 5px;
+}
+
+.what {
+  padding: 10px;
+}
+.what h3 {
+  padding-top: 15px;
+  border-bottom: 2px solid rgb(84, 82, 82);
+}
+
+.what p,
+.what ul {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.what li {
+  padding: 5px;
+}
+.java {
+  padding: 10px;
+}
+.java h3 {
+  padding-top: 15px;
+  border-bottom: 2px solid rgb(84, 82, 82);
+}
+
+.java p {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.hello {
+  padding: 10px;
+}
+.hello h3 {
+  padding-top: 15px;
+  border-bottom: 2px solid rgb(84, 82, 82);
+}
+.hello .function {
+  background-color: rgb(223, 220, 220);
+  padding: 15px;
+}
+.hello p {
+  padding: 15px;
+}
+.var {
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.var h3 {
+  padding-top: 15px;
+  border-bottom: 2px solid rgb(84, 82, 82);
+}
+.var p {
+  padding: 15px;
+}

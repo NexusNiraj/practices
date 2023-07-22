@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.container {
+  max-width: 900px;
+}
+.box {
+  max-width: 500px;
+  background-color: aliceblue;
+  margin: 15px auto;
+  box-shadow: 10px 15px 10px;
+  padding: 15px;
+}
+.form_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.control {
+  display: flex;
+  border-radius: 5px solid;
+  margin: 10px ;
+  gap: 5px;
+}

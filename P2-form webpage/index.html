@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Job Application<span>(web)</span></h1>
+        <form action="">
+          <div class="form_container">
+            <div class="control">
+              <label for="First name">First Name</label>
+              <input
+                id="First name"
+                name="First Name"
+                placeholder="Enter your first Name..."
+              />
+            </div>
+            <div class="control">
+              <label for="Last name">Last Name</label>
+              <input
+                id="Last name"
+                name="Last Name"
+                placeholder="Enter your Last Name..."
+              />
+            </div>
+            <div class="control">
+              <label for="Job Type">Select a Job</label>
+              <select id="Job Type" name="Selcet a job">
+                <option value="Select a job">Select a job</option>
+                <option value="Civil Engineer">Civil Engineer</option>
+              </select>
+            </div>
+            <div class="control">
+              <label for="Address">Address</label>
+              <textarea
+                id="Address"
+                name="Address"
+                rows="4"
+                cols="20"
+              ></textarea>
+            </div>
+            <div class="control">
+              <label for="Email">Email</label>
+              <input
+                id="Email"
+                name="Email"
+                placeholder="Enter your Email..."
+                type="email"
+              />
+            </div>
+            <div class="control">
+              <label for="Ward no.:">Ward no.:</label>
+              <input id="Ward no.:" name="Ward no.:" type="number" />
+            </div>
+            <div class="control">
+              <label for="First name">First Name</label>
+              <input
+                id="First name"
+                name="Name"
+                placeholder="Enter your first Name..."
+              />
+            </div>
+            <div class="control">
+              <label for="Date">Date</label>
+              <input id="Date" name="Date" type="date" value="2023-04-05" />
+            </div>
+
+            <div class="control">
+              <label for="Cv">Upload your CV</label>
+              <input id="Cv" name="Cv" type="file" />
+            </div>
+          </div>
+          <div class="button">
+            <button type="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
